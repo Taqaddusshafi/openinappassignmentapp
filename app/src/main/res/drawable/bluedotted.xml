@@ -1,0 +1,19 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Blue filled background -->
+    <solid android:color="#A6C7FF" />
+
+    <!-- Dotted blue border -->
+    <stroke
+        android:color="#A6C7FF"
+        android:width="2dp"
+        android:dashGap="4dp"
+        android:dashWidth="4dp" />
+
+    <!-- Other shape attributes -->
+    <corners android:radius="1dp" />
+    <padding
+        android:left="8dp"
+        android:top="8dp"
+        android:right="8dp"
+        android:bottom="8dp" />
+</shape>

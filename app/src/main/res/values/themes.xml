@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Mynewsapp" parent="Theme.MaterialComponents.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/white</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/black</item>
+
+        <!-- Customize your theme here. -->
+    </style>
+
+        <style name="TabButtonStyle" parent="Widget.Design.TabLayout">
+            <item name="tabIndicatorColor">@android:color/transparent</item>
+            <item name="tabBackground">@drawable/tabback</item>
+            <item name="tabTextColor">#FFFFFF</item>
+            <item name="tabTextAppearance">@style/TabButtonAppearance</item>
+        </style>
+
+        <style name="TabButtonAppearance" parent="TextAppearance.Design.Tab">
+            <item name="android:textSize">14sp</item>
+            <item name="android:textColor">#F8F8F8</item>
+            <item name="textAllCaps">true</item>
+        </style>
+</resources>
